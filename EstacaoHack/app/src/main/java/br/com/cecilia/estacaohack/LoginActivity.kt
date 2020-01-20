@@ -52,5 +52,9 @@ class LoginActivity : AppCompatActivity() {
                     .show()
             }
         }
+
+        btnCadastrar.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, CadastroActivity::class.java))
+        }
     }
 }
