@@ -26,5 +26,9 @@ class MainActivity : AppCompatActivity() {
         btnSair.setOnClickListener {
             startActivity(Intent(this@MainActivity, LoginActivity::class.java))
         }
+
+        btnSite.setOnClickListener {
+            startActivity(Intent(this@MainActivity, WebActivity::class.java))
+        }
     }
 }
